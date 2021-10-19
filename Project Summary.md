@@ -1,0 +1,7 @@
+# Project Summary
+
+In this semester, what I am going to do are mainly two parts.
+
+Firstly, I am responsible for the programing of manual robot. This robot contains one touch sensor（maybe try other sensors to compare their performance in later stage）, one 180 servo and five DC motors and is controlled by a ps4 controller. This robot is used to load balls for other robots.  For the function of each part, servo is used to block/release ball, touch sensor is used to check whether ball reaches expected position and the left DC motors is used for tracks and wheels. For controller, senior students have written a simpe .py file for it. However, some essential modification is need, as they applied different ways to check the button status. Ros is used to receive and send signal in mbed and controller. As for the chassis, we are going to apply the same model and codes as last year. 
+
+Secondly, I’d like to work on the gmapping, which means building a map with laser sensor while robot is moving and locating its own position in process. With this algorithm, efficiency of  the manual robot will be highly improved. However, as gmapping is pretty hard, it depends on whether time is enough. If possible, we will apply gmapping on the chassis. If not, we can take it as preparation for later competition.
