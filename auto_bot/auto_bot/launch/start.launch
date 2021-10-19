@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="auto_bot" name="data_node" type="auto_monitor.py"/>
+	<node pkg="auto_bot" name="motor_control" type="motor_control.py"/>
+	<node pkg="auto_bot" name="GoToPostion" type="go_position.py"/>
+
+</launch>

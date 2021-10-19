@@ -1,0 +1,17 @@
+up = tar_rpm + 1
+down = tar_rpm - 1
+L1 + up = tar_rpm + 10
+L1 + down = tar_rpm - 10
+
+left = tar_deg + 1
+right = tar_deg - 1
+L1 + left = tar_deg - 10
+L1 + right = tar_deg +10
+
+circle = shot
+triangle = release grab
+
+
+R1 = enable/disable 
+
+ps = reset cur_deg

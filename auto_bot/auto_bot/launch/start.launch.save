@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="auto_bot" name="show_data" type="sub_data.py/">
+	<node pkg="auto_bot" name="motor" type="motor_control.py/">
+</launch>
